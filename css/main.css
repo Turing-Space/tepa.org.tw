@@ -271,10 +271,9 @@ body{
 
 .bottomText {
     position: absolute;
-    margin: auto;
     top: 25px;
     left: 726px;
-    width: 396px;
+    width: 469px;
     height: 43px;
     text-align: center;
     font-size: 24px;
@@ -285,7 +284,6 @@ body{
 
 .bottomEmail {
     position: absolute;
-    margin: 0px auto;
     top: 58px;
     left: 763px;
     width: 396px;
