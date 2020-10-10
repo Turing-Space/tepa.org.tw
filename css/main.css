@@ -55,6 +55,16 @@ body{
     opacity: 1;
 }
 
+#origin-area .Turing-Logo {
+    position: absolute;
+    top: 692px;
+    left: 985px;
+    width: 425px;
+    height: 86px;
+    background: transparent url('../img/Turing_Logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
 #member-area {
     position: absolute;
     top: 2032px;
