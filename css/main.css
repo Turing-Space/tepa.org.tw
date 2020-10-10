@@ -35,6 +35,26 @@ body{
     opacity: 1;
 }
 
+#member-area {
+    top: 2032px;
+    left: 0px;
+    width: auto;
+    height: 1079px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/*
+#member-area .logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+}
+*/
 #right-area {
     top: 3111px;
     left: 0px;
