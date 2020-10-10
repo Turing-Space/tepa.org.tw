@@ -35,6 +35,30 @@ body{
     opacity: 1;
 }
 
+#origin-area {
+    top: 1080px;
+    left: 0px;
+    width: auto;
+    height: 952px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#origin-area .area-description {
+    top: 1263px;
+    left: 501px;
+    width: 936px;
+    height: 422px;
+    padding-left: 20%;
+    color: var(--unnamed-color-707070);
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 0.56px;
+    line-height: 60px;
+    color: #707070;
+    opacity: 1;
+}
+
 #member-area {
     top: 2032px;
     left: 0px;
