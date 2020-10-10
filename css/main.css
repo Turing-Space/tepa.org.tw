@@ -4,20 +4,11 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-#right-area {
-    top: 3111px;
-    left: 0px;
-    width: auto;
-    height: 969px;
-    background: #F4F4F4 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-#right-area .title {
+.area-title {
     padding-top: 90px;
 }
 
-#right-area .title span {
+.area-title span {
     top: 3201px;
     left: 501px;
     width: 146px;
@@ -30,7 +21,7 @@ body{
     opacity: 1;
 }
 
-#right-area .description {
+.area-description {
     top: 3299px;
     left: 501px;
     width: 648px;
@@ -41,6 +32,59 @@ body{
     font-size: 28px;
     letter-spacing: 0.56px;
     color: #707070;
+    opacity: 1;
+}
+
+#origin-area {
+    top: 1080px;
+    left: 0px;
+    width: auto;
+    height: 952px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#origin-area .area-description {
+    top: 1263px;
+    left: 501px;
+    width: 936px;
+    height: 422px;
+    padding-left: 20%;
+    color: var(--unnamed-color-707070);
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 0.56px;
+    line-height: 60px;
+    color: #707070;
+    opacity: 1;
+}
+
+#member-area {
+    top: 2032px;
+    left: 0px;
+    width: auto;
+    height: 1079px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/*
+#member-area .logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+}
+*/
+#right-area {
+    top: 3111px;
+    left: 0px;
+    width: auto;
+    height: 969px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
