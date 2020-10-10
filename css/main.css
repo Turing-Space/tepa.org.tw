@@ -1,19 +1,11 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
-
+@import url(bootstrap.min.css);
+@import url(classy-nav.css);
 body{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.area-title {
-    padding-top: 90px;
-}
-
 .area-title span {
-    top: 3201px;
-    left: 501px;
-    width: 146px;
-    height: 52px;
-    padding-left: 20%;
     text-align: left;
     font-size: 36px;
     letter-spacing: 0.72px;
@@ -22,12 +14,6 @@ body{
 }
 
 .area-description {
-    top: 3299px;
-    left: 501px;
-    width: 648px;
-    height: 40px;
-    padding-left: 20%;
-    color: var(--unnamed-color-707070);
     text-align: left;
     font-size: 28px;
     letter-spacing: 0.56px;
@@ -35,22 +21,102 @@ body{
     opacity: 1;
 }
 
+#mainLogo-area {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#mainLogo-area .Tepa-Logo {
+    position: absolute;
+    top: 347px;
+    left: 694px;
+    width: 532px;
+    height: 176px;
+    background: transparent url('../img/TEPA_Logo_橫_英.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#mainLogo-area .area-title {
+    position: absolute;
+    top: 595px;
+    left: 814px;
+    width: 294px;
+    height: 52px;
+    text-align: left;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    color: #19A9B1;
+    opacity: 1;
+}
+
+#mainLogo-area .area-description .content {
+    position: absolute;
+    top: 654px;
+    left: 732px;
+    width: 457px;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+}
+
+#mainLogo-area .button {
+    position: absolute;
+    top: 792px;
+    left: 890px;
+    width: 140px;
+    height: 54px;
+    border: 1px solid #19A9B1;
+    border-radius: 32px;
+    opacity: 1;
+}
+
+#mainLogo-area .button a {
+    position: absolute;
+    top: 12px;
+    left: 24px;
+    width: 106px;
+    height: 26px;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 0.52px;
+    color: #19A9B1;
+    opacity: 1;
+}
+
 #origin-area {
+    position: absolute;
     top: 1080px;
     left: 0px;
-    width: auto;
+    width: 1920px;
     height: 952px;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
+#origin-area .area-title {
+    position: absolute;
+    top: 106px;
+    left: 501px;
+    width: 147px;
+    height: 52px;
+    text-align: left;
+    
+}
+
 #origin-area .area-description {
-    top: 1263px;
+    position: absolute;
+    top: 183px;
     left: 501px;
     width: 936px;
     height: 422px;
-    padding-left: 20%;
-    color: var(--unnamed-color-707070);
     text-align: left;
     font-size: 28px;
     letter-spacing: 0.56px;
@@ -59,13 +125,78 @@ body{
     opacity: 1;
 }
 
+#origin-area .Turing-Logo {
+    position: absolute;
+    top: 692px;
+    left: 985px;
+    width: 425px;
+    height: 86px;
+    background: transparent url('../img/Turing_Logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
 #member-area {
+    position: absolute;
     top: 2032px;
     left: 0px;
-    width: auto;
+    width: 1920px;
     height: 1079px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#member-area .area-title {
+    position: absolute;
+    top: 104px;
+    left: 501px;
+    width: 147px;
+    height: 52px;
+    text-align: left;
+    letter-spacing: 0.72px;
+    color: #19A9B1;
+    opacity: 1;
+}
+
+#member-area .area-description {
+    position: absolute;
+    top: 192px;
+    left: 501px;
+    width: 936px;
+    height: 59px;
+    text-align: left;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+}
+
+#member-area .NTHU-Logo {
+    position: absolute;
+    top: 289px;
+    left: 501px;
+    width: 425px;
+    height: 86px;
+    background: transparent url('../img/NTHU_清華.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#member-area .NTCU-Logo {
+    position: absolute;
+    top: 289px;
+    left: 1038px;
+    width: 425px;
+    height: 86px;
+    background: transparent url('../img/NTCU_中教大.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#member-area .CHU-Logo {
+    position: absolute;
+    top: 424px;
+    left: 501px;
+    width: 425px;
+    height: 86px;
+    background: transparent url('../img/CHU_中華大學.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 /*
@@ -80,21 +211,47 @@ body{
 }
 */
 #right-area {
+    position: absolute;
     top: 3111px;
     left: 0px;
-    width: auto;
+    width: 1920px;
     height: 969px;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
+#right-area .area-title span {
+    position: absolute;
+    top: 90px;
+    left: 501px;
+    width: 147px;
+    height: 52px;
+    text-align: left;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    color: #19A9B1;
+    opacity: 1;
+}
+
+#right-area .area-description {
+    position: absolute;
+    top: 188px;
+    left: 501px;
+    width: 630px;
+    height: 40px;
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+}
+
 #right-area .text {
-    top: 3364px;
+    position: absolute;
+    top: 253px;
     left: 501px;
     width: 936px;
     height: 419px;
-    padding-left: 20%;
-    color: var(--unnamed-color-707070);
     text-align: left;
     font-size: 24px;
     letter-spacing: 0.48px;
@@ -103,22 +260,21 @@ body{
 }
 
 .footer-area {
+    position: absolute;
     top: 4080px;
     left: 0px;
-    width: auto;
+    width: 1920px;
     height: 120px;
     background: #19A9B1 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 .bottomText {
-    margin: auto;
-    top: 4105px;
+    position: absolute;
+    top: 25px;
     left: 726px;
-    width: 396px;
+    width: 469px;
     height: 43px;
-    padding-top: 25.22px;
-    color: var(--unnamed-color-ffffff);
     text-align: center;
     font-size: 24px;
     letter-spacing: 0px;
@@ -127,12 +283,11 @@ body{
 }
 
 .bottomEmail {
-    margin: 0px auto;
-    top: 4138px;
+    position: absolute;
+    top: 58px;
     left: 763px;
     width: 396px;
     height: 43px;
-    color: var(--unnamed-color-ffffff);
     text-align: center;
     font-size: 24px;
     letter-spacing: 0px;
