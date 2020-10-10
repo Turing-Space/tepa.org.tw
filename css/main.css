@@ -4,9 +4,6 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-
-
-
 .area-title span {
     text-align: left;
     font-size: 36px;
@@ -23,7 +20,7 @@ body{
     opacity: 1;
 }
 
-.area-content {
+.text {
     text-align: left;
     font-size: 24px;
     letter-spacing: 0.56px;
@@ -46,7 +43,7 @@ body{
     position: absolute;
     top: 106px;
     left: 501px;
-    width: 146px;
+    width: 147px;
     height: 52px;
     text-align: left;
     
@@ -82,7 +79,7 @@ body{
     position: absolute;
     top: 104px;
     left: 501px;
-    width: 146px;
+    width: 147px;
     height: 52px;
     text-align: left;
     letter-spacing: 0.72px;
@@ -90,7 +87,7 @@ body{
     opacity: 1;
 }
 
-#member_area .area-description {
+#member-area .area-description {
     position: absolute;
     top: 192px;
     left: 501px;
@@ -127,7 +124,7 @@ body{
     position: absolute;
     top: 90px;
     left: 501px;
-    width: 146px;
+    width: 147px;
     height: 52px;
     text-align: left;
     font: normal normal medium 36px/40px Source Han Sans TW;
@@ -137,9 +134,10 @@ body{
 }
 
 #right-area .area-description {
+    position: absolute;
     top: 188px;
     left: 501px;
-    width: 628px;
+    width: 630px;
     height: 40px;
     color: var(--unnamed-color-707070);
     text-align: left;
