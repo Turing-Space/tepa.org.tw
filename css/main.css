@@ -9,7 +9,6 @@ body{
     left: 0px;
     width: auto;
     height: 969px;
-    /* UI Properties */
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -54,7 +53,6 @@ body{
     color: var(--unnamed-color-707070);
     text-align: left;
     font-size: 24px;
-    font-family: Noto Sans TC;
     letter-spacing: 0.48px;
     color: #707070;
     opacity: 1;
