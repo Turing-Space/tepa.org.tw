@@ -1,8 +1,18 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 @import url(bootstrap.min.css);
 @import url(classy-nav.css);
+html,body {
+    width:100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
 body{
     font-family: 'Noto Sans TC', sans-serif;
+    color:#FFFFFF;
+    position: relative;
 }
 
 .area-title span {
@@ -22,32 +32,55 @@ body{
 }
 
 #mainLogo-area {
-    position: absolute;
+    padding: 70px 0;
+    position: relative;
     top: 0px;
     left: 0px;
-    width: 1920px;
+    width: 100%;
     height: 1080px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
+    text-align: center;
+}
+
+#mainLogo-area .container {
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
 }
 
 #mainLogo-area .Tepa-Logo {
     position: absolute;
-    top: 347px;
-    left: 694px;
-    width: 532px;
-    height: 176px;
-    background: transparent url('../img/TEPA_Logo_橫_英.png') 0% 0% no-repeat padding-box;
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    top:150px;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
     opacity: 1;
 }
+
 
 #mainLogo-area .area-title {
     position: absolute;
     top: 595px;
-    left: 814px;
-    width: 294px;
-    height: 52px;
-    text-align: left;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px;
     font-size: 36px;
     letter-spacing: 0.72px;
     color: #19A9B1;
@@ -56,10 +89,11 @@ body{
 
 #mainLogo-area .area-description .content {
     position: absolute;
-    top: 654px;
-    left: 732px;
-    width: 457px;
-    height: 40px;
+    top: 750px;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
     text-align: center;
     font-size: 28px;
     letter-spacing: 0.56px;
@@ -69,10 +103,13 @@ body{
 
 #mainLogo-area .button {
     position: absolute;
-    top: 792px;
-    left: 890px;
+    top: 1100px;
+    right:0;
+    bottom:0;
+    left:0;
     width: 140px;
     height: 54px;
+    margin:auto;
     border: 1px solid #19A9B1;
     border-radius: 32px;
     opacity: 1;
@@ -95,7 +132,7 @@ body{
     position: absolute;
     top: 1080px;
     left: 0px;
-    width: 1920px;
+    width: 100%;
     height: 952px;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -139,7 +176,7 @@ body{
     position: absolute;
     top: 2032px;
     left: 0px;
-    width: 1920px;
+    width: 100%;
     height: 1079px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -214,7 +251,7 @@ body{
     position: absolute;
     top: 3111px;
     left: 0px;
-    width: 1920px;
+    width: 100%;
     height: 969px;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -263,7 +300,7 @@ body{
     position: absolute;
     top: 4080px;
     left: 0px;
-    width: 1920px;
+    width: 100%;
     height: 120px;
     background: #19A9B1 0% 0% no-repeat padding-box;
     opacity: 1;
