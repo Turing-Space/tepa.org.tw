@@ -20,15 +20,6 @@ body{
     opacity: 1;
 }
 
-.text {
-    text-align: left;
-    font-size: 24px;
-    letter-spacing: 0.56px;
-    color: #707070;
-    opacity: 1;
-}
-
-
 #origin-area {
     position: absolute;
     top: 1080px;
@@ -55,7 +46,6 @@ body{
     left: 501px;
     width: 936px;
     height: 422px;
-    color: var(--unnamed-color-707070);
     text-align: left;
     font-size: 28px;
     letter-spacing: 0.56px;
@@ -93,7 +83,6 @@ body{
     left: 501px;
     width: 936px;
     height: 59px;
-    color: var(--unnamed-color-707070);
     text-align: left;
     letter-spacing: 0.56px;
     color: #707070;
@@ -139,7 +128,6 @@ body{
     left: 501px;
     width: 630px;
     height: 40px;
-    color: var(--unnamed-color-707070);
     text-align: left;
     font-size: 28px;
     letter-spacing: 0.56px;
@@ -153,7 +141,6 @@ body{
     left: 501px;
     width: 936px;
     height: 419px;
-    color: var(--unnamed-color-707070);
     text-align: left;
     font-size: 24px;
     letter-spacing: 0.48px;
@@ -178,7 +165,6 @@ body{
     left: 726px;
     width: 396px;
     height: 43px;
-    color: var(--unnamed-color-ffffff);
     text-align: center;
     font-size: 24px;
     letter-spacing: 0px;
@@ -193,7 +179,6 @@ body{
     left: 763px;
     width: 396px;
     height: 43px;
-    color: var(--unnamed-color-ffffff);
     text-align: center;
     font-size: 24px;
     letter-spacing: 0px;
