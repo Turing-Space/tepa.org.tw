@@ -5,6 +5,13 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+.header-area {
+    position: absolute;
+    width: 1920px;
+    z-index: 10;
+}
+
+
 .area-title span {
     text-align: left;
     font-size: 36px;
@@ -259,9 +266,43 @@ body{
     opacity: 1;
 }
 
+#apply-area {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#apply-area .area-title {
+    position: absolute;
+    top: 141px;
+    left: 501px;
+    width: 147px;
+    height: 52px;
+    text-align: left;
+    letter-spacing: 0.72px;
+    color: #19A9B1;
+    opacity: 1;
+}
+#apply-area .apply-google-form {
+    position: absolute;
+    top: 233px;
+    left: 501px;
+    width: 957px;
+    height: 665px;
+    text-align: center;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    border-radius: 43px;
+    opacity: 1;
+}
+
 .footer-area {
     position: absolute;
-    top: 4080px;
+    top: 960px;
     left: 0px;
     width: 1920px;
     height: 120px;
