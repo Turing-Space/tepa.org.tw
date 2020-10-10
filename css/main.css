@@ -21,6 +21,76 @@ body{
     opacity: 1;
 }
 
+#mainLogo-area {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#mainLogo-area .Tepa-Logo {
+    position: absolute;
+    top: 347px;
+    left: 694px;
+    width: 532px;
+    height: 176px;
+    background: transparent url('../img/TEPA_Logo_橫_英.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#mainLogo-area .area-title {
+    position: absolute;
+    top: 595px;
+    left: 814px;
+    width: 294px;
+    height: 52px;
+    text-align: left;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    color: #19A9B1;
+    opacity: 1;
+}
+
+#mainLogo-area .area-description .content {
+    position: absolute;
+    top: 654px;
+    left: 732px;
+    width: 457px;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+}
+
+#mainLogo-area .button {
+    position: absolute;
+    top: 792px;
+    left: 890px;
+    width: 140px;
+    height: 54px;
+    border: 1px solid #19A9B1;
+    border-radius: 32px;
+    opacity: 1;
+}
+
+#mainLogo-area .button a {
+    position: absolute;
+    top: 12px;
+    left: 24px;
+    width: 106px;
+    height: 26px;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 0.52px;
+    color: #19A9B1;
+    opacity: 1;
+}
+
 #origin-area {
     position: absolute;
     top: 1080px;
