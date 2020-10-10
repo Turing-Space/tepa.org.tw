@@ -100,7 +100,7 @@ body{
     opacity: 1;
 }
 
-#member-area .NTHU {
+#member-area .NTHU-Logo {
     position: absolute;
     top: 289px;
     left: 501px;
@@ -110,7 +110,7 @@ body{
     opacity: 1;
 }
 
-#member-area .NTCU {
+#member-area .NTCU-Logo {
     position: absolute;
     top: 289px;
     left: 1038px;
@@ -120,7 +120,7 @@ body{
     opacity: 1;
 }
 
-#member-area .CHU {
+#member-area .CHU-Logo {
     position: absolute;
     top: 424px;
     left: 501px;
