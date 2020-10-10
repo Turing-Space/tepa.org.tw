@@ -74,7 +74,7 @@ p{
 }
 
 
-#mainLogo-area .area-title {
+#mainLogo-area .area-title span{
     position: absolute;
     top: 300px;
     right:0;
@@ -155,7 +155,7 @@ p{
     text-align: center;
 }
 
-#origin-area .area-title {
+#origin-area .area-title span{
     position: absolute;
     top: 0px;
     right:0;
@@ -223,7 +223,7 @@ p{
     text-align: center;
 }
 
-#member-area .area-title {
+#member-area .area-title span{
     position: absolute;
     top: 0;
     right:0;
@@ -364,7 +364,7 @@ p{
     opacity: 1;
 }
 
-#apply-area .area-title {
+#apply-area .area-title span{
     position: absolute;
     top: 141px;
     left: 501px;
