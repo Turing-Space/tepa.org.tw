@@ -88,6 +88,36 @@ body{
     color: #707070;
     opacity: 1;
 }
+
+#member-area .NTHU {
+    position: absolute;
+    top: 289px;
+    left: 501px;
+    width: 425px;
+    height: 86px;
+    background: transparent url('../img/NTHU_清華.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#member-area .NTCU {
+    position: absolute;
+    top: 289px;
+    left: 1038px;
+    width: 425px;
+    height: 86px;
+    background: transparent url('../img/NTCU_中教大.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#member-area .CHU {
+    position: absolute;
+    top: 424px;
+    left: 501px;
+    width: 425px;
+    height: 86px;
+    background: transparent url('../img/CHU_中華大學.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
 /*
 #member-area .logo {
     background-position: center;
