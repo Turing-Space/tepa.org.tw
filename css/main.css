@@ -14,20 +14,15 @@ body{
     color:#FFFFFF;
     position: relative;
 }
-
+p{
+    font-size: 20px;
+    line-height: 40px;
+}
 .area-title span {
     text-align: left;
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 0.72px;
     color: #19A9B1;
-    opacity: 1;
-}
-
-.area-description {
-    text-align: left;
-    font-size: 28px;
-    letter-spacing: 0.56px;
-    color: #707070;
     opacity: 1;
 }
 
@@ -37,7 +32,7 @@ body{
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 1080px;
+    height: 800px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     text-align: center;
@@ -50,8 +45,8 @@ body{
     bottom:0;
     left:0;
     margin:auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-right: 50px;
     padding-left: 50px;
     text-align: center;
@@ -74,7 +69,7 @@ body{
 
 #mainLogo-area .area-title {
     position: absolute;
-    top: 595px;
+    top: 600px;
     right:0;
     bottom:0;
     left:0;
@@ -89,13 +84,13 @@ body{
 
 #mainLogo-area .area-description .content {
     position: absolute;
-    top: 750px;
+    top: 700px;
     right:0;
     bottom:0;
     left:0;
     margin:auto;
+    padding-top: 100px;
     text-align: center;
-    font-size: 28px;
     letter-spacing: 0.56px;
     color: #707070;
     opacity: 1;
@@ -103,7 +98,7 @@ body{
 
 #mainLogo-area .button {
     position: absolute;
-    top: 1100px;
+    top: 1000px;
     right:0;
     bottom:0;
     left:0;
@@ -129,67 +124,106 @@ body{
 }
 
 #origin-area {
-    position: absolute;
-    top: 1080px;
+    padding: 70px 0;
+    position: relative;
+    top: 0px;
     left: 0px;
     width: 100%;
-    height: 952px;
+    height: 700px;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
+#origin-area .container {
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+
 #origin-area .area-title {
     position: absolute;
-    top: 106px;
-    left: 501px;
-    width: 147px;
-    height: 52px;
-    text-align: left;
+    top: 0px;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    color: #19A9B1;
+    opacity: 1;
     
 }
 
 #origin-area .area-description {
     position: absolute;
-    top: 183px;
-    left: 501px;
-    width: 936px;
-    height: 422px;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
     text-align: left;
+    padding-top: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 28px;
     letter-spacing: 0.56px;
-    line-height: 60px;
     color: #707070;
-    opacity: 1;
+
 }
 
 #origin-area .Turing-Logo {
     position: absolute;
-    top: 692px;
-    left: 985px;
-    width: 425px;
-    height: 86px;
-    background: transparent url('../img/Turing_Logo.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    top: 0px;
+    right:0;
+    bottom:0;
+    left:0;
+    padding-top: 800px;
+    margin:auto;
 }
 
 #member-area {
-    position: absolute;
-    top: 2032px;
+    padding: 70px 0;
+    position: relative;
+    top: 0px;
     left: 0px;
     width: 100%;
-    height: 1079px;
+    height: 800px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
+#member-area .container {
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+
 #member-area .area-title {
     position: absolute;
-    top: 104px;
-    left: 501px;
-    width: 147px;
-    height: 52px;
-    text-align: left;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    text-align: center;
     letter-spacing: 0.72px;
     color: #19A9B1;
     opacity: 1;
@@ -197,44 +231,42 @@ body{
 
 #member-area .area-description {
     position: absolute;
-    top: 192px;
-    left: 501px;
-    width: 936px;
-    height: 59px;
-    text-align: left;
+    top: 100px;
+    right:0;
+    bottom:0;
+    left:0;
+    text-align: center;
     letter-spacing: 0.56px;
     color: #707070;
     opacity: 1;
 }
 
-#member-area .NTHU-Logo {
+#member-area .school-logo{
     position: absolute;
-    top: 289px;
-    left: 501px;
-    width: 425px;
-    height: 86px;
-    background: transparent url('../img/NTHU_清華.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    height: 700px;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    padding-top: 300px;
+
+
+}
+#member-area .NTHU-Logo {
+    height: 100px;
+    padding-left: 100px;
+    
 }
 
 #member-area .NTCU-Logo {
-    position: absolute;
-    top: 289px;
-    left: 1038px;
-    width: 425px;
-    height: 86px;
-    background: transparent url('../img/NTCU_中教大.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    height: 100px;
+    padding-right: 100px;
+    
 }
 
 #member-area .CHU-Logo {
-    position: absolute;
-    top: 424px;
-    left: 501px;
-    width: 425px;
-    height: 86px;
-    background: transparent url('../img/CHU_中華大學.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    height: 100px;
+    padding-left: 100px;
 }
 /*
 #member-area .logo {
@@ -248,23 +280,38 @@ body{
 }
 */
 #right-area {
-    position: absolute;
-    top: 3111px;
+    padding: 70px 0;
+    position: relative;
+    top: 0px;
     left: 0px;
     width: 100%;
-    height: 969px;
-    background: #F4F4F4 0% 0% no-repeat padding-box;
+    height: 900px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #f4f4f4 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+#right-area .container {
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
 }
 
 #right-area .area-title span {
     position: absolute;
-    top: 90px;
-    left: 501px;
-    width: 147px;
-    height: 52px;
-    text-align: left;
-    font-size: 36px;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    text-align: center;
     letter-spacing: 0.72px;
     color: #19A9B1;
     opacity: 1;
@@ -272,11 +319,13 @@ body{
 
 #right-area .area-description {
     position: absolute;
-    top: 188px;
-    left: 501px;
-    width: 630px;
-    height: 40px;
-    text-align: left;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    padding-top: 200px;
+    margin:auto;
+    text-align: center;
     font-size: 28px;
     letter-spacing: 0.56px;
     color: #707070;
@@ -285,35 +334,52 @@ body{
 
 #right-area .text {
     position: absolute;
-    top: 253px;
-    left: 501px;
-    width: 936px;
-    height: 419px;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
     text-align: left;
-    font-size: 24px;
+    padding-top: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
     letter-spacing: 0.48px;
     color: #707070;
     opacity: 1;
 }
 
 .footer-area {
-    position: absolute;
-    top: 4080px;
+    padding: 50px 0;
+    position: relative;
+    top: 0px;
     left: 0px;
     width: 100%;
-    height: 120px;
+    height: 80px;
     background: #19A9B1 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
+#footer-area .container{
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+
 .bottomText {
     position: absolute;
-    top: 25px;
-    left: 726px;
-    width: 469px;
-    height: 43px;
+    top: -30px;
+    right:0;
+    bottom:0;
+    left:0;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -321,13 +387,46 @@ body{
 
 .bottomEmail {
     position: absolute;
-    top: 58px;
-    left: 763px;
-    width: 396px;
-    height: 43px;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+}
+
+@media (max-width: 992px) {
+    p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #member-area .NTHU-Logo {
+        padding-left: 0px;
+        
+    }
+    
+    #member-area .NTCU-Logo {
+        padding-right: 0px;
+        
+    }
+    
+    #member-area .CHU-Logo {
+        padding-left: 0px;
+    }
+    #mainLogo-area .Tepa-Logo {
+        position: absolute;
+        max-height: 90%;  
+        max-width: 90%; 
+        width: auto;
+        height: auto;
+        top:150px;
+        right:0;
+        bottom:0;
+        left:0;
+        margin:auto;
+        opacity: 1;
+    }
 }
