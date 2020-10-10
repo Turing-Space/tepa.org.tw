@@ -127,7 +127,7 @@ body{
     width: 147px;
     height: 52px;
     text-align: left;
-    font: normal normal medium 36px/40px Source Han Sans TW;
+    font-size: 36px;
     letter-spacing: 0.72px;
     color: #19A9B1;
     opacity: 1;
@@ -141,7 +141,7 @@ body{
     height: 40px;
     color: var(--unnamed-color-707070);
     text-align: left;
-    font: normal normal normal 28px/60px Source Han Sans TW;
+    font-size: 28px;
     letter-spacing: 0.56px;
     color: #707070;
     opacity: 1;
