@@ -5,6 +5,11 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+#stickyNav {
+    height: 100px;
+}
+
+
 .area-title span {
     text-align: left;
     font-size: 36px;
