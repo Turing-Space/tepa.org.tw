@@ -6,7 +6,7 @@ html,body {
     height:100%;
     margin:0;
     padding:0;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 body{
@@ -21,7 +21,7 @@ p{
 }
 
 .header-area {
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 10;
 }
@@ -250,6 +250,7 @@ p{
     left:0;
     padding-top: 300px;
 }
+
 #member-area .NTHU-Logo {
     height: 100px;
     padding-left: 100px;
@@ -353,6 +354,7 @@ p{
     color: #19A9B1;
     opacity: 1;
 }
+
 #apply-area .apply-google-form {
     position: absolute;
     top: 93px;
@@ -421,17 +423,16 @@ p{
 }
 
 .footer-area {
-    position: absolute;
     left: 0px;
     bottom: 0px;
     width: 100%;
+    min-width: 720px;
     height: 100px;
     background: #19A9B1 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 .footer-area .container{
-    position: absolute;
     top: 0;
     right:0;
     bottom:0;
