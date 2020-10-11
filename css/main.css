@@ -3,7 +3,7 @@
 @import url(classy-nav.css);
 html,body {
     width:100%;
-    height: auto;
+    height:100%;
     margin:0;
     padding:0;
     overflow-x: hidden;
@@ -21,12 +21,22 @@ p{
 
 .header-area {
     position: absolute;
-    width: 1920px;
+    width: 100%;
     z-index: 10;
 }
 
 .header-area .original-nav-area .classy-nav-container {
     box-shadow: 0px 3px 6px #00000029;
+}
+
+.main-block {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    min-width: 720px;
+    height: 100%;
 }
 
 .area-title span {
@@ -38,55 +48,49 @@ p{
 }
 
 #mainLogo-area {
-    padding: 70px 0;
     position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 800px;
+    height:100%;
+    min-height: 850px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     text-align: center;
 }
 
-#mainLogo-area .container {
+#mainLogo-area .container0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
     top: 0;
     right:0;
     bottom:0;
     left:0;
+    width: 540px;
+    height: 500px;
     margin:auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 50px;
-    padding-left: 50px;
     text-align: center;
 }
 
 #mainLogo-area .Tepa-Logo {
-    position: absolute;
     max-height: 100%;  
     max-width: 100%; 
     width: auto;
     height: auto;
-    top:150px;
-    right:0;
-    bottom:0;
-    left:0;
-    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
     opacity: 1;
 }
 
 
-#mainLogo-area .area-title span{
-    position: absolute;
-    top: 300px;
-    right:0;
-    bottom:0;
-    left:0;
-    margin:auto;
+#mainLogo-area .area-title {
+    width: 100%;
+    padding-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding-top: 50px;
     font-size: 36px;
     letter-spacing: 0.72px;
     color: #19A9B1;
@@ -94,53 +98,45 @@ p{
 }
 
 #mainLogo-area .area-description {
-    position: absolute;
-    top: 305px;
-    right:0;
-    bottom:0;
-    left:0;
-    margin:auto;
-    padding-top: 100px;
+    width: 100%;
+    padding-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     letter-spacing: 0.56px;
     color: #707070;
     opacity: 1;
 }
 
-#mainLogo-area .button {
-    position: absolute;
-    top: 1000px;
-    right:0;
-    bottom:0;
-    left:0;
+#mainLogo-area .button-box {
+    width: 100%;
+    padding-top: 98px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainLogo-area #Apply-button {
     width: 140px;
     height: 54px;
     margin:auto;
+    text-align: center;
+    color: #19A9B1;
+    background-color: #ffffff;
     border: 1px solid #19A9B1;
+    font-size: 22px;
+    letter-spacing: 0.52px;
     border-radius: 32px;
     opacity: 1;
 }
 
-#mainLogo-area .button a {
-    position: absolute;
-    top: 12px;
-    left: 24px;
-    width: 106px;
-    height: 26px;
-    text-align: left;
-    font-size: 22px;
-    letter-spacing: 0.52px;
-    color: #19A9B1;
-    opacity: 1;
-}
-
 #origin-area {
-    padding: 70px 0;
     position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 700px;
+    height: 100%;
+    min-width: 720px;
+    min-height: 800px;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -160,7 +156,6 @@ p{
 }
 
 #origin-area .area-title span{
-    position: absolute;
     top: 0px;
     right:0;
     bottom:0;
@@ -175,16 +170,13 @@ p{
 }
 
 #origin-area .area-description {
-    position: absolute;
     top: 0;
     right:0;
     bottom:0;
     left:0;
     margin:auto;
     text-align: left;
-    padding-top: 200px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 50px;
     font-size: 28px;
     letter-spacing: 0.56px;
     color: #707070;
@@ -192,22 +184,20 @@ p{
 }
 
 #origin-area .Turing-Logo {
-    position: absolute;
     top: 0px;
     right:0;
     bottom:0;
     left:0;
-    padding-top: 400px;
+    padding-top: 100px;
     margin:auto;
 }
 
 #member-area {
-    padding: 70px 0;
     position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 800px;
+    min-height: 800px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -291,12 +281,12 @@ p{
 }
 */
 #right-area {
-    padding: 70px 0;
     position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 900px;
+    height: 92%;
+    min-height: 800px;
     background: #f4f4f4 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -315,11 +305,6 @@ p{
 }
 
 #right-area .area-title span {
-    position: absolute;
-    top: 0;
-    right:0;
-    bottom:0;
-    left:0;
     margin:auto;
     text-align: center;
     letter-spacing: 0.72px;
@@ -328,12 +313,7 @@ p{
 }
 
 #right-area .area-description {
-    position: absolute;
-    top: 0;
-    right:0;
-    bottom:0;
-    left:0;
-    padding-top: 100px;
+    padding-top: 46px;
     margin:auto;
     text-align: center;
     font-size: 28px;
@@ -343,15 +323,9 @@ p{
 }
 
 #right-area .text {
-    position: absolute;
-    top: 0;
-    right:0;
-    bottom:0;
-    left:0;
+    margin: auto;
     text-align: left;
-    padding-top: 200px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 10px;
     letter-spacing: 0.48px;
     color: #707070;
     opacity: 1;
@@ -409,36 +383,49 @@ p{
 }
 
 .footer-area {
-    padding: 50px 0;
-    position: relative;
-    top: 0px;
+    position: absolute;
     left: 0px;
+    bottom: 0px;
     width: 100%;
-    height: 80px;
+    height: 100px;
     background: #19A9B1 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
-#footer-area .container{
+.footer-area .container{
     position: absolute;
     top: 0;
     right:0;
     bottom:0;
     left:0;
     margin:auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
     padding-right: 50px;
     padding-left: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+#right-area .footer-area .container{
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 0px;
     text-align: center;
 }
 
 .bottomText {
-    position: absolute;
-    top: -30px;
     right:0;
     bottom:0;
     left:0;
+    padding-top: 10px;
+    margin-bottom: 0px;
     text-align: center;
     font-size: 18px;
     letter-spacing: 0px;
@@ -447,11 +434,11 @@ p{
 }
 
 .bottomEmail {
-    position: absolute;
     top: 0;
     right:0;
     bottom:0;
     left:0;
+    margin-bottom: 0px;
     text-align: center;
     font-size: 18px;
     letter-spacing: 0px;
@@ -476,18 +463,5 @@ p{
     
     #member-area .CHU-Logo {
         padding-left: 0px;
-    }
-    #mainLogo-area .Tepa-Logo {
-        position: absolute;
-        max-height: 90%;  
-        max-width: 90%; 
-        width: auto;
-        height: auto;
-        top:150px;
-        right:0;
-        bottom:0;
-        left:0;
-        margin:auto;
-        opacity: 1;
     }
 }
