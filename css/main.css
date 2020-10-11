@@ -115,25 +115,6 @@ p{
     margin-right: auto;
 }
 
-#mainLogo-area .button {
-    width: 140px;
-    height: 54px;
-    margin:auto;
-    text-align: center;
-    border: 1px solid #19A9B1;
-    border-radius: 32px;
-    opacity: 1;
-}
-
-#mainLogo-area .button a {
-    margin: auto;
-    
-    font-size: 22px;
-    letter-spacing: 0.52px;
-    color: #19A9B1;
-    opacity: 1;
-}
-
 #mainLogo-area #Apply-button {
     width: 140px;
     height: 54px;
@@ -175,7 +156,6 @@ p{
 }
 
 #origin-area .area-title span{
-    position: absolute;
     top: 0px;
     right:0;
     bottom:0;
@@ -190,16 +170,13 @@ p{
 }
 
 #origin-area .area-description {
-    position: absolute;
     top: 0;
     right:0;
     bottom:0;
     left:0;
     margin:auto;
     text-align: left;
-    padding-top: 200px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 50px;
     font-size: 28px;
     letter-spacing: 0.56px;
     color: #707070;
@@ -207,12 +184,11 @@ p{
 }
 
 #origin-area .Turing-Logo {
-    position: absolute;
     top: 0px;
     right:0;
     bottom:0;
     left:0;
-    padding-top: 400px;
+    padding-top: 100px;
     margin:auto;
 }
 
@@ -328,11 +304,6 @@ p{
 }
 
 #right-area .area-title span {
-    position: absolute;
-    top: 0;
-    right:0;
-    bottom:0;
-    left:0;
     margin:auto;
     text-align: center;
     letter-spacing: 0.72px;
@@ -341,12 +312,7 @@ p{
 }
 
 #right-area .area-description {
-    position: absolute;
-    top: 0;
-    right:0;
-    bottom:0;
-    left:0;
-    padding-top: 100px;
+    padding-top: 46px;
     margin:auto;
     text-align: center;
     font-size: 28px;
@@ -356,15 +322,9 @@ p{
 }
 
 #right-area .text {
-    position: absolute;
-    top: 0;
-    right:0;
-    bottom:0;
-    left:0;
+    margin: auto;
     text-align: left;
-    padding-top: 200px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 25px;
     letter-spacing: 0.48px;
     color: #707070;
     opacity: 1;
@@ -489,18 +449,5 @@ p{
     
     #member-area .CHU-Logo {
         padding-left: 0px;
-    }
-    #mainLogo-area .Tepa-Logo {
-        position: absolute;
-        max-height: 90%;  
-        max-width: 90%; 
-        width: auto;
-        height: auto;
-        top:150px;
-        right:0;
-        bottom:0;
-        left:0;
-        margin:auto;
-        opacity: 1;
     }
 }
