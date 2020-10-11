@@ -25,6 +25,10 @@ p{
     z-index: 10;
 }
 
+.header-area .original-nav-area .classy-nav-container {
+    box-shadow: 0px 3px 6px #00000029;
+}
+
 .area-title span {
     text-align: left;
     font-size: 30px;
