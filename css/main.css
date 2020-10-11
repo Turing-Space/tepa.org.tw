@@ -285,7 +285,8 @@ p{
     top: 0px;
     left: 0px;
     width: 100%;
-    min-height: 900px;
+    height: 92%;
+    min-height: 800px;
     background: #f4f4f4 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -324,7 +325,7 @@ p{
 #right-area .text {
     margin: auto;
     text-align: left;
-    padding-top: 25px;
+    padding-top: 10px;
     letter-spacing: 0.48px;
     color: #707070;
     opacity: 1;
@@ -382,7 +383,6 @@ p{
 }
 
 .footer-area {
-    padding: 50px 0;
     position: absolute;
     left: 0px;
     bottom: 0px;
@@ -392,26 +392,40 @@ p{
     opacity: 1;
 }
 
-#footer-area .container{
+.footer-area .container{
     position: absolute;
     top: 0;
     right:0;
     bottom:0;
     left:0;
     margin:auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
     padding-right: 50px;
     padding-left: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+#right-area .footer-area .container{
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 0px;
     text-align: center;
 }
 
 .bottomText {
-    position: absolute;
-    top: -30px;
     right:0;
     bottom:0;
     left:0;
+    padding-top: 10px;
+    margin-bottom: 0px;
     text-align: center;
     font-size: 18px;
     letter-spacing: 0px;
@@ -420,11 +434,11 @@ p{
 }
 
 .bottomEmail {
-    position: absolute;
     top: 0;
     right:0;
     bottom:0;
     left:0;
+    margin-bottom: 0px;
     text-align: center;
     font-size: 18px;
     letter-spacing: 0px;
