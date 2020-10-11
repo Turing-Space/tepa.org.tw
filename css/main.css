@@ -368,21 +368,38 @@ p{
     opacity: 1;
 }
 
+#apply-area .container {
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+
 #apply-area .area-title span{
     position: absolute;
-    top: 141px;
-    left: 501px;
-    width: 183px;
-    height: 52px;
-    text-align: left;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    padding-top: 71px;
+    text-align: center;
     letter-spacing: 0.72px;
     color: #19A9B1;
     opacity: 1;
 }
 #apply-area .apply-google-form {
     position: absolute;
-    top: 233px;
-    left: 501px;
+    top: 163px;
+    right:0;
+    left: 0;
+    margin: auto;
     width: 957px;
     height: 665px;
     text-align: center;
