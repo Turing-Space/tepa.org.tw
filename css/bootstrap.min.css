@@ -10,8 +10,6 @@
 *,::after,::before {
     box-sizing: border-box
 }
-@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
-
 html {
     font-family: sans-serif;
     line-height: 1.15;
