@@ -362,7 +362,8 @@ p{
     left: 0;
     margin: auto;
     width: 100%;
-    height: 665px;
+    height: 680px;
+    padding: 10px 0px 10px 0px;
     text-align: center;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     border-radius: 43px;
