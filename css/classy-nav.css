@@ -136,6 +136,7 @@ img {
     display: block;
     height: 35px;
     font-size: 14px;
+    text-align: center;
     line-height: 34px; }
   .classynav ul li .megamenu li a {
     border-bottom: none;
