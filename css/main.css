@@ -431,20 +431,6 @@ p{
     text-align: center;
 }
 
-#right-area .footer-area .container{
-    position: absolute;
-    top: 0;
-    right:0;
-    bottom:0;
-    left:0;
-    margin:auto;
-    padding-top: 0px;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 0px;
-    text-align: center;
-}
-
 .bottomText {
     right:0;
     bottom:0;
