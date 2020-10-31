@@ -62,12 +62,6 @@ p{
     text-align: center;
 }
 
-#mainLogo-area .container {
-    position: absolute;
-    margin:auto;
-    text-align: center;
-}
-
 #mainLogo-area .Tepa-Logo {
     max-height: 90%;  
     max-width: 90%; 
