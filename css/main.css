@@ -196,6 +196,7 @@ p{
     right:0;
     bottom:0;
     left:0;
+    margin: auto;
     text-align: center;
     letter-spacing: 0.56px;
     color: #707070;
@@ -203,15 +204,9 @@ p{
 }
 
 #member-area .school-logo{
-    position: absolute;
-    height: 700px;
-    top: 0;
-    right:0;
-    bottom:0;
-    left:0;
-    font-size: 30px;
+    font-size: 26px;
     color: #707070;
-    padding-top: 300px;
+    padding-top: 15%;
 }
 
 #right-area {
