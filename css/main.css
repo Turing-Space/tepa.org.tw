@@ -183,7 +183,7 @@ p{
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 120%;
+    height: 100%;
     min-height: 650px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -205,7 +205,9 @@ p{
 
 #member-area .school-logo{
     color: #707070;
-    padding-top: 15%;
+    padding-top: 3%;
+    padding-right: 5%;
+    display: inline-block;
 }
 
 #right-area {
@@ -376,6 +378,10 @@ p{
 }
 
 @media (max-width: 770px) {
+    #member-area .area-description p {
+        font-size: 14px;
+        line-height: 23px;
+    }
 
     #origin-area .area-description p {
         font-size: 16px;
@@ -385,6 +391,10 @@ p{
 }
 
 @media (max-width: 500px) {
+    #member-area .area-description p {
+        font-size: 14px;
+        line-height: 15px;
+    }
 
     #right-area .text p, #origin-area .area-description p, p {
         font-size: 14px;
