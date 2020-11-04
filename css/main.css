@@ -160,22 +160,11 @@ p{
     letter-spacing: 0.56px;
     color: #707070;
 }
-
-#origin-area .Turing-Logo {
-    top: 0px;
-    right:0;
-    bottom:0;
-    left:0;
+#origin-area .logo {
     padding-top: 50px;
+    padding-right: 5%;
     margin:auto;
-}
-#origin-area .BADI-Logo {
-    top: 0px;
-    right:0;
-    bottom:0;
-    left:0;
-    padding-top: 50px;
-    margin:auto;
+    display: inline-block;
 }
 
 #member-area {
@@ -414,10 +403,6 @@ p{
         font-size: 26px;
     }
 
-    #origin-area .BADI-Logo, #origin-area .Turing-Logo {
-        max-height: 50%;  
-        max-width: 50%; 
-    }
     #origin-area {
         min-height: 900px;
     }
