@@ -403,10 +403,6 @@ p{
         font-size: 26px;
     }
 
-    #origin-area .logo, #origin-area {
-        max-height: 50%;  
-        max-width: 50%; 
-    }
     #origin-area {
         min-height: 900px;
     }
