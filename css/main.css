@@ -169,6 +169,10 @@ p{
     display: inline-block;
 }
 
+#origin-area .small-img {
+    width: 200px;
+}
+
 
 
 #member-area {
