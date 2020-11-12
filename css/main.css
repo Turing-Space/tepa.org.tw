@@ -216,6 +216,15 @@ p{
     border-left-color: #19A9B1;
 }
 
+#member-area .member-classification {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.72px;
+    color: #19A9B1;
+    opacity: 1;
+    margin-bottom: 2rem;
+}
+
 #right-area {
     position: relative;
     top: 0px;
