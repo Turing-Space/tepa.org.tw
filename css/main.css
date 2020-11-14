@@ -160,6 +160,7 @@ p{
     letter-spacing: 0.56px;
     color: #707070;
 }
+
 #origin-area .logo {
     width: 140px;
     padding-top: 50px;
@@ -167,6 +168,13 @@ p{
     padding-right: 20px;
     margin:auto;
     display: inline-block;
+    
+}
+
+#origin-area .logo p {
+    color: #19A9B1;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 #origin-area .small-img {
