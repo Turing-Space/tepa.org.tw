@@ -410,6 +410,14 @@ p{
         line-height: 23px;
     }
 
+    #member-area .member-classification span {
+        font-size: 16px;
+    }
+
+    #member-area .school-logo p{
+        font-size: 14px;
+    }
+
     #origin-area .area-description p {
         font-size: 16px;
         line-height: 23px;
@@ -427,6 +435,10 @@ p{
     #member-area .area-description p {
         font-size: 14px;
         line-height: 15px;
+    }
+
+    #member-area .member-classification span {
+        font-size: 16px;
     }
 
     #right-area .text p, #origin-area .area-description p, p {
