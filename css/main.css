@@ -189,7 +189,7 @@ p{
     left: 0px;
     width: 100%;
     height: 120%;
-    min-height: 650px;
+    min-height: 800px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -230,8 +230,8 @@ p{
     letter-spacing: 0.72px;
     color: #19A9B1;
     opacity: 1;
-    margin-bottom: 2rem;
-    padding-top: 3%;
+    margin-bottom: 1rem;
+    padding-top: 1%;
     padding-right: 5%;
     padding-left: 5%;
     display: inline-block;
@@ -396,7 +396,23 @@ p{
     opacity: 1;
 }
 
+@media (max-width: 1260px) {
+
+    #member-area .member-classification {
+        font-size: 24px;
+    }
+
+    #member-area .school-logo p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
 @media (max-width: 1000px) {
+
+    #member-area .school-logo p{
+        font-size: 14px;
+    }
 
     #right-area .text p {
         font-size: 16px;
@@ -415,8 +431,7 @@ p{
     }
 
     #member-area .school-logo p{
-        font-size: 14px;
-        line-height: 30px;
+        line-height: 20px;
     }
 
     #origin-area .area-description p {
@@ -438,18 +453,12 @@ p{
         line-height: 15px;
     }
 
-    #member-area .member-classification {
-        padding-top: 1%;
-        margin-bottom: 1rem;
-    }
-
     #member-area .member-classification span {
         font-size: 16px;
     }
 
     #member-area .school-logo p{
         font-size: 12px;
-        line-height: 20px;
     }
 
     #right-area .text p, #origin-area .area-description p, p {
