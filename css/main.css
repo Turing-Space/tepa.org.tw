@@ -278,7 +278,7 @@ p{
     opacity: 1;
 }
 
-#apply-area .container, #contact-area .container, #download-area .container, #logo-area .container {
+#apply-area .container, #contact-area .container, #logo-area .container {
     position: absolute;
     top: 0;
     right:0;
@@ -307,7 +307,7 @@ p{
     opacity: 1;
 }
 
-#contact-area, #download-area, #logo-area {
+#contact-area, #logo-area {
     padding: 70px 0;
     position: relative;
     top: 0px;
@@ -339,7 +339,7 @@ p{
     color: #707070;
 }
 
-#download-area .download-logo {
+#logo-area .download-logo {
     margin-top: 15%;
 }
 
@@ -347,7 +347,7 @@ p{
     margin-top: 5%;
 }
 
-#download-area img , #logo-area img {
+#logo-area img {
     height: 70px;
 }
 
