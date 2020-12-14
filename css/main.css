@@ -278,7 +278,7 @@ p{
     opacity: 1;
 }
 
-#apply-area .container, #contact-area .container, #download-area .container {
+#apply-area .container, #contact-area .container, #download-area .container, #logo-area .container {
     position: absolute;
     top: 0;
     right:0;
@@ -307,7 +307,7 @@ p{
     opacity: 1;
 }
 
-#contact-area, #download-area{
+#contact-area, #download-area, #logo-area {
     padding: 70px 0;
     position: relative;
     top: 0px;
@@ -343,7 +343,11 @@ p{
     margin-top: 15%;
 }
 
-#download-area img {
+#logo-area .news-logo {
+    margin-top: 5%;
+}
+
+#download-area img , #logo-area img {
     height: 70px;
 }
 
