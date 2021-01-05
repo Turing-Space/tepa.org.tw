@@ -237,6 +237,11 @@ p{
     display: inline-block;
 }
 
+#member-area .scrollbar {
+    height: 500px;
+    overflow-y: scroll;
+}
+
 #right-area {
     position: relative;
     top: 0px;
